@@ -14,7 +14,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       url: pageUrl(locale, path),
       lastModified,
       changeFrequency,
-      priority: locale === routing.defaultLocale ? priority : priority * 0.9,
+      priority: locale === routing.defaultLocale ? priority : Math.round(priority * 90) / 100,
       alternates: { languages: languageAlternates(path) },
     })),
   );
