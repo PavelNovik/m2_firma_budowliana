@@ -1,0 +1,163 @@
+{
+  "meta": {
+    "title": "Remonty i wykończenia wnętrz Poznań | M2 Maksymyk Group – Firma Budowlana",
+    "description": "Kompleksowe remonty mieszkań, domów i lokali w Poznaniu i okolicach. Wykończenia pod klucz, łazienki, malowanie, tynki, płyty g-k, instalacje. Bezpłatna wycena – zadzwoń: 793 514 201.",
+    "keywords": "remont mieszkania Poznań, wykończenia wnętrz Poznań, firma budowlana Poznań, wykończenie pod klucz, remont łazienki Poznań, malowanie ścian, tynkowanie maszynowe, płyty kartonowo-gipsowe, remont biura, ekipa remontowa Poznań",
+    "ogAlt": "M2 Maksymyk Group – Firma Budowlana, Poznań"
+  },
+  "nav": {
+    "services": "Usługi",
+    "process": "Jak pracujemy",
+    "portfolio": "Realizacje",
+    "why": "O nas",
+    "area": "Obszar",
+    "faq": "FAQ",
+    "contact": "Kontakt",
+    "quote": "Bezpłatna wycena",
+    "menu": "Menu",
+    "close": "Zamknij",
+    "language": "Język"
+  },
+  "hero": {
+    "badge": "Firma budowlana • Poznań i okolice",
+    "title": "Remonty i wykończenia wnętrz",
+    "titleAccent": "pod klucz",
+    "subtitle": "Mieszkania, domy, biura i lokale usługowe. Od stanu deweloperskiego do gotowego wnętrza — terminowo, starannie i zgodnie ze sztuką budowlaną.",
+    "ctaCall": "Zadzwoń: {phone}",
+    "ctaQuote": "Bezpłatna wycena",
+    "tiktok": "Zobacz nasze budowy na TikToku",
+    "trust1": "Firma sprawdzona w GUS",
+    "trust2": "Bezpłatna wycena",
+    "trust3": "Stała, doświadczona ekipa"
+  },
+  "stats": [
+    { "value": "3+", "label": "lata doświadczenia na rynku" },
+    { "value": "40+", "label": "rodzajów usług remontowych" },
+    { "value": "10+", "label": "miast w Wielkopolsce" },
+    { "value": "52K+", "label": "polubień na TikToku" }
+  ],
+  "services": {
+    "eyebrow": "Usługi",
+    "title": "Wszystko, czego potrzebuje Twoje wnętrze",
+    "subtitle": "Jedna ekipa — od demontażu po ostatnią listwę. Nie musisz koordynować kilku wykonawców.",
+    "items": {
+      "turnkey": { "title": "Wykończenia pod klucz", "text": "Kompleksowe wykończenie mieszkań, domów i lokali komercyjnych — od stanu deweloperskiego do wprowadzenia." },
+      "bathroom": { "title": "Remont łazienki", "text": "Hydroizolacja, glazura i terakota, kabiny prysznicowe, wanny, biały montaż, spadki i odpływy liniowe." },
+      "painting": { "title": "Malowanie i tapetowanie", "text": "Malowanie ścian i sufitów, malowanie artystyczne i dekoracyjne, tapetowanie, zabezpieczanie powierzchni." },
+      "plaster": { "title": "Tynki i gładzie", "text": "Tynkowanie maszynowe i ręczne, szpachlowanie, gładzie gipsowe, idealnie równe ściany pod malowanie." },
+      "drywall": { "title": "Płyty g-k i sufity podwieszane", "text": "Ścianki działowe, zabudowy, sufity podwieszane, wnęki i półki, oświetlenie LED, wygłuszanie ścian." },
+      "floors": { "title": "Podłogi i drzwi", "text": "Układanie płytek, paneli i wykładzin, montaż drzwi wewnętrznych oraz listew przypodłogowych." },
+      "installations": { "title": "Elektryka i hydraulika", "text": "Nowe instalacje i modernizacja starych, rozmieszczenie gniazd i włączników, wymiana rur i zaworów." },
+      "renovation": { "title": "Remonty biur, kuchni i balkonów", "text": "Od drobnego odświeżenia po generalny remont — biura, kuchnie, pokoje, balkony, elewacje i budynki." }
+    }
+  },
+  "process": {
+    "eyebrow": "Jak pracujemy",
+    "title": "Prosty proces — przewidywalny efekt",
+    "steps": [
+      { "title": "Kontakt", "text": "Dzwonisz lub piszesz na WhatsApp. Opowiadasz, co chcesz zrobić i w jakim terminie." },
+      { "title": "Oględziny i wycena", "text": "Przyjeżdżamy na miejsce, mierzymy, doradzamy i przygotowujemy bezpłatną wycenę." },
+      { "title": "Realizacja", "text": "Pracujemy według ustalonego harmonogramu, na sprawdzonych materiałach. Na bieżąco pokazujemy postępy." },
+      { "title": "Odbiór pod klucz", "text": "Sprzątamy po sobie i oddajemy gotowe wnętrze. Ty tylko wnosisz meble." }
+    ]
+  },
+  "portfolio": {
+    "eyebrow": "Realizacje",
+    "title": "Nasze budowy — prosto z TikToka",
+    "subtitle": "Pokazujemy prace na każdym etapie: demontaż, instalacje, tynki, malowanie i wykończenie. Bez retuszu.",
+    "watch": "Obejrzyj na TikToku",
+    "follow": "Obserwuj {handle}",
+    "featured": "Wybrane filmy",
+    "play": "Odtwórz film",
+    "embedNote": "Po kliknięciu załaduje się odtwarzacz TikTok (serwis zewnętrzny).",
+    "items": {
+      "commercial": "Wykończenie lokalu usługowego",
+      "decorative": "Dekoracyjne malowanie ścian",
+      "demolition": "Demontaż — pierwszy etap remontu",
+      "painting": "Malowanie i przygotowanie ścian",
+      "tenement": "Remont mieszkania w kamienicy",
+      "walls": "Ściany, podłogi i stolarka",
+      "electrical": "Nowa instalacja elektryczna",
+      "team": "Nasza ekipa na budowie",
+      "office": "Biuro firmy w Poznaniu"
+    }
+  },
+  "why": {
+    "eyebrow": "Dlaczego M2",
+    "title": "Budujemy zaufanie metr po metrze",
+    "text": "M2 Maksymyk Group to poznańska firma budowlana Volodymyra Maksymyka. Stawiamy na precyzję, dobre materiały i dotrzymywanie terminów — dlatego klienci polecają nas dalej.",
+    "items": [
+      { "title": "Terminowość", "text": "Ustalamy harmonogram i trzymamy się go." },
+      { "title": "Jakość materiałów", "text": "Pracujemy na sprawdzonych produktach i doradzamy przy wyborze." },
+      { "title": "Zgodnie z normami", "text": "Każdy etap wykonujemy zgodnie ze sztuką budowlaną." },
+      { "title": "Stała ekipa", "text": "Doświadczeni fachowcy, którzy znają się nawzajem i swoją pracę." },
+      { "title": "Przejrzysta wycena", "text": "Bezpłatna wycena przed rozpoczęciem prac — bez niespodzianek." },
+      { "title": "Firma zweryfikowana", "text": "Dane firmy sprawdzone w GUS, NIP {nip}." }
+    ]
+  },
+  "area": {
+    "eyebrow": "Obszar działania",
+    "title": "Poznań i okolice",
+    "text": "Realizujemy remonty w Poznaniu oraz w miejscowościach w promieniu kilkudziesięciu kilometrów. Nie widzisz swojej miejscowości? Zadzwoń — na pewno się dogadamy.",
+    "mapTitle": "Mapa — M2 Maksymyk Group, Poznań"
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Najczęstsze pytania",
+    "items": [
+      { "q": "Czy wycena jest bezpłatna?", "a": "Tak. Przyjeżdżamy na oględziny, robimy pomiary i przygotowujemy wycenę bez żadnych kosztów i zobowiązań." },
+      { "q": "Jakie prace wykonujecie?", "a": "Kompleksowe remonty i wykończenia: łazienki, malowanie, tynki i gładzie, płyty g-k, sufity podwieszane, podłogi, drzwi, instalacje elektryczne i hydrauliczne." },
+      { "q": "Czy robicie wykończenia pod klucz?", "a": "Tak — przejmujemy cały proces od stanu deweloperskiego do gotowego wnętrza, więc nie musisz koordynować kilku ekip." },
+      { "q": "Na jakim terenie działacie?", "a": "Poznań i okolice: Swarzędz, Luboń, Śrem, Września, Kościan, Środa Wielkopolska, Szamotuły, Oborniki, Grodzisk Wielkopolski i inne." },
+      { "q": "Czy remontujecie biura i lokale usługowe?", "a": "Tak. Wykańczamy biura, sklepy, salony i lokale usługowe — także w kamienicach." },
+      { "q": "Jak szybko możecie zacząć?", "a": "Termin zależy od zakresu prac i bieżącego grafiku. Zadzwoń pod 793 514 201 — podamy konkretną datę." }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Kontakt",
+    "title": "Porozmawiajmy o Twoim remoncie",
+    "subtitle": "Zadzwoń, napisz albo zostaw wiadomość — odpowiemy i umówimy bezpłatną wycenę.",
+    "phone": "Telefon",
+    "email": "E-mail",
+    "address": "Adres",
+    "company": "Dane firmy",
+    "nip": "NIP",
+    "whatsapp": "WhatsApp",
+    "viber": "Viber",
+    "socials": "Znajdziesz nas też tutaj",
+    "form": {
+      "title": "Zapytanie o wycenę",
+      "name": "Imię",
+      "phone": "Telefon",
+      "type": "Rodzaj prac",
+      "types": ["Wykończenie pod klucz", "Remont łazienki", "Remont mieszkania / domu", "Malowanie / tynki", "Remont biura / lokalu", "Inne"],
+      "message": "Opis (metraż, lokalizacja, termin)",
+      "sendWhatsapp": "Wyślij przez WhatsApp",
+      "sendEmail": "Wyślij e-mailem",
+      "note": "Formularz otworzy WhatsApp lub Twoją pocztę z gotową wiadomością. Nie przechowujemy Twoich danych na stronie.",
+      "greeting": "Dzień dobry, chciałbym/chciałabym poprosić o wycenę.",
+      "subject": "Zapytanie o wycenę ze strony"
+    }
+  },
+  "footer": {
+    "tagline": "Kompleksowe remonty i wykończenia wnętrz w Poznaniu i okolicach.",
+    "navTitle": "Nawigacja",
+    "contactTitle": "Kontakt",
+    "followTitle": "Obserwuj nas",
+    "privacy": "Polityka prywatności",
+    "rights": "Wszelkie prawa zastrzeżone."
+  },
+  "floating": { "call": "Zadzwoń", "whatsapp": "WhatsApp" },
+  "privacy": {
+    "title": "Polityka prywatności",
+    "description": "Informacje o przetwarzaniu danych osobowych na stronie M2 Maksymyk Group.",
+    "sections": [
+      { "h": "Administrator danych", "p": "Administratorem danych jest M2 Maksymyk Group – Firma Budowlana, Volodymyr Maksymyk, ul. Katowicka 45/26, 61-131 Poznań, NIP 7822929062, e-mail: maximikremont@gmail.com." },
+      { "h": "Jakie dane przetwarzamy", "p": "Strona nie zbiera danych przez formularze ani nie używa plików cookie analitycznych. Jeśli skontaktujesz się z nami telefonicznie, przez WhatsApp, Viber lub e-mail, przetwarzamy dane, które sam podasz (np. imię, numer telefonu, opis prac), wyłącznie w celu odpowiedzi i przygotowania wyceny (art. 6 ust. 1 lit. b i f RODO)." },
+      { "h": "Serwisy zewnętrzne", "p": "Na stronie mogą zostać załadowane materiały z serwisów TikTok i Google Maps. Odtwarzacz TikTok ładuje się dopiero po kliknięciu. Serwisy te mogą przetwarzać dane zgodnie z własnymi politykami prywatności." },
+      { "h": "Twoje prawa", "p": "Masz prawo dostępu do swoich danych, ich sprostowania, usunięcia, ograniczenia przetwarzania, wniesienia sprzeciwu oraz skargi do Prezesa UODO. W tym celu napisz na adres e-mail podany wyżej." }
+    ],
+    "back": "Wróć na stronę główną"
+  },
+  "languages": { "pl": "Polski", "uk": "Українська", "ru": "Русский" }
+}

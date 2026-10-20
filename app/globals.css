@@ -1,0 +1,93 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-ink: #121214;
+  --color-graphite: #1d1d1f;
+  --color-steel: #2b2b2f;
+  --color-muted: #6b6b70;
+  --color-concrete: #f3f2ef;
+  --color-line: #e2e0db;
+  --color-brand: #a8232b;
+  --color-brand-dark: #861b22;
+  --color-brand-light: #d23b43;
+
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-montserrat), ui-sans-serif, system-ui, sans-serif;
+
+  --animate-fade-up: fade-up 0.7s cubic-bezier(0.2, 0.7, 0.2, 1) both;
+
+  @keyframes fade-up {
+    from { opacity: 0; transform: translateY(24px); }
+    to { opacity: 1; transform: none; }
+  }
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
+    -webkit-tap-highlight-color: transparent;
+  }
+  body {
+    @apply bg-white font-sans text-graphite antialiased;
+  }
+  ::selection {
+    @apply bg-brand text-white;
+  }
+}
+
+@utility container-x {
+  @apply mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8;
+}
+@utility eyebrow {
+  @apply inline-flex items-center gap-3 font-display text-xs font-bold tracking-[0.25em] text-brand uppercase;
+  &::before {
+    content: '';
+    @apply h-0.5 w-8 bg-brand;
+  }
+}
+@utility h2 {
+  @apply font-display text-3xl leading-tight font-extrabold tracking-tight text-balance sm:text-4xl lg:text-5xl;
+}
+@utility btn {
+  @apply inline-flex items-center justify-center gap-2 px-6 py-3.5 font-display text-sm font-bold tracking-wide uppercase transition-all duration-200 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand;
+}
+@utility btn-primary {
+  @apply btn bg-brand text-white shadow-lg shadow-brand/20 hover:-translate-y-0.5 hover:bg-brand-dark;
+}
+@utility btn-outline-light {
+  @apply btn border border-white/30 text-white hover:border-white hover:bg-white hover:text-graphite;
+}
+@utility btn-dark {
+  @apply btn bg-graphite text-white hover:bg-ink;
+}
+/* Blueprint grid used on dark sections */
+@utility bg-blueprint {
+  background-image:
+    linear-gradient(to right, rgb(255 255 255 / 0.04) 1px, transparent 1px),
+    linear-gradient(to bottom, rgb(255 255 255 / 0.04) 1px, transparent 1px);
+  background-size: 48px 48px;
+}
+@utility bg-blueprint-light {
+  background-image:
+    linear-gradient(to right, rgb(0 0 0 / 0.035) 1px, transparent 1px),
+    linear-gradient(to bottom, rgb(0 0 0 / 0.035) 1px, transparent 1px);
+  background-size: 48px 48px;
+}
+
+/* Scroll reveal (components/RevealObserver). Content stays visible without JS. */
+.js .reveal {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity 0.7s cubic-bezier(0.2, 0.7, 0.2, 1), transform 0.7s cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+.js .reveal.is-visible {
+  opacity: 1;
+  transform: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .js .reveal { opacity: 1; transform: none; transition: none; }
+  *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+}
