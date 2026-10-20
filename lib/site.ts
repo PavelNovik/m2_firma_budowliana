@@ -1,4 +1,4 @@
-export const SITE_URL = (process.env.NEXT_PUBLIC_SITE_URL || 'https://m2-maksymyk.vercel.app').replace(/\/$/, '');
+export const SITE_URL = (process.env.NEXT_PUBLIC_SITE_URL || 'https://m2firmabudowlana.vercel.app').replace(/\/$/, '');
 
 export const company = {
   name: 'M2 Maksymyk Group',
