@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 import { ClipboardList, Hammer, KeyRound, PhoneCall } from 'lucide-react';
 
@@ -9,7 +10,8 @@ export default function Process() {
 
   return (
     <section id="process" className="bg-blueprint relative overflow-hidden bg-graphite py-24 text-white sm:py-32">
-      <div className="container-x">
+      <Image src="/images/process.webp" alt="" fill sizes="100vw" className="object-cover opacity-[0.14] grayscale" />
+      <div className="container-x relative">
         <div className="reveal max-w-2xl">
           <p className="eyebrow !text-brand-light before:!bg-brand-light">{t('eyebrow')}</p>
           <h2 className="h2 mt-4">{t('title')}</h2>

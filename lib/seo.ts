@@ -67,7 +67,7 @@ export function businessJsonLd(locale: Locale, description: string, services: st
     description,
     url: pageUrl(locale),
     logo: `${SITE_URL}/brand/logo.svg`,
-    image: [`${SITE_URL}/og.jpg`, `${SITE_URL}/hero.webp`],
+    image: `${SITE_URL}/og.jpg`,
     telephone: company.phone,
     email: company.email,
     taxID: company.nip,

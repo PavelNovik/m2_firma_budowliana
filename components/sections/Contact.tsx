@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 import { Building2, Mail, MapPin, Phone } from 'lucide-react';
 import { company, social } from '@/lib/site';
@@ -22,7 +23,8 @@ export default function Contact() {
 
   return (
     <section id="contact" className="bg-blueprint relative overflow-hidden bg-ink py-24 text-white sm:py-32">
-      <div className="container-x grid gap-14 lg:grid-cols-2">
+      <Image src="/images/workshop.webp" alt="" fill sizes="100vw" className="object-cover opacity-[0.14] grayscale" />
+      <div className="container-x relative grid gap-14 lg:grid-cols-2">
         <div className="reveal">
           <p className="eyebrow !text-brand-light before:!bg-brand-light">{t('eyebrow')}</p>
           <h2 className="h2 mt-4">{t('title')}</h2>

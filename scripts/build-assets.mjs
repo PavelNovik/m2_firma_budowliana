@@ -6,7 +6,6 @@ import path from 'path';
 
 const SRC_COVERS = 'assets-src/covers';
 const OUT_PORTFOLIO = 'public/portfolio';
-const HERO_ID = '7698017911071460641';
 
 fs.mkdirSync(OUT_PORTFOLIO, { recursive: true });
 
@@ -18,12 +17,19 @@ for (const file of fs.readdirSync(SRC_COVERS)) {
     .toFile(path.join(OUT_PORTFOLIO, `${id}.webp`));
 }
 
-// Hero background — landscape crop of a finished decorative wall
-await sharp(path.join(SRC_COVERS, `${HERO_ID}.jpg`))
-  .resize(1600, 1000, { fit: 'cover', position: 'centre' })
-  .modulate({ saturation: 0.6 })
-  .webp({ quality: 70 })
-  .toFile('public/hero.webp');
+// Stock photos (Unsplash License, see README) — decoration only, never shown as our own projects
+const STOCK = 'assets-src/stock';
+const OUT_IMAGES = 'public/images';
+fs.mkdirSync(OUT_IMAGES, { recursive: true });
+const stockSizes = { hero: [2400, 1400], process: [1920, 1080], workshop: [1920, 1080] };
+for (const file of fs.readdirSync(STOCK)) {
+  const name = path.parse(file).name;
+  const [w, h] = stockSizes[name] ?? [900, 600];
+  await sharp(path.join(STOCK, file))
+    .resize(w, h, { fit: 'cover', position: 'attention' })
+    .webp({ quality: name in stockSizes ? 72 : 76 })
+    .toFile(path.join(OUT_IMAGES, `${name}.webp`));
+}
 
 // Icons
 const mark = fs.readFileSync('app/icon.svg');

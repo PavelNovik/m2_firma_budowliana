@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 import { Bath, Building2, DoorOpen, House, Layers, PaintRoller, Ruler, Zap, type LucideIcon } from 'lucide-react';
 
@@ -34,13 +35,24 @@ export default function Services() {
             return (
               <li
                 key={key}
-                className="reveal group relative bg-white p-7 transition-colors duration-300 hover:bg-graphite sm:p-8"
+                className="reveal group relative bg-white transition-colors duration-300 hover:bg-graphite"
                 style={{ transitionDelay: `${(i % 4) * 60}ms` }}
               >
-                <span className="font-display text-xs font-bold text-muted/60 transition group-hover:text-white/30">
-                  {String(i + 1).padStart(2, '0')}
-                </span>
-                <div className="mt-5 flex h-14 w-14 items-center justify-center bg-concrete text-brand transition group-hover:bg-brand group-hover:text-white">
+                <div className="relative aspect-[3/2] overflow-hidden bg-graphite">
+                  <Image
+                    src={`/images/${key}.webp`}
+                    alt=""
+                    fill
+                    sizes="(min-width:1024px) 25vw, (min-width:640px) 50vw, 100vw"
+                    className="object-cover transition duration-700 group-hover:scale-105"
+                  />
+                  <span className="absolute inset-0 bg-gradient-to-t from-ink/60 to-transparent" />
+                  <span className="absolute top-4 left-4 font-display text-xs font-bold text-white/80">
+                    {String(i + 1).padStart(2, '0')}
+                  </span>
+                </div>
+                <div className="relative px-7 pb-8 sm:px-8">
+                <div className="-mt-7 flex h-14 w-14 items-center justify-center bg-brand text-white shadow-lg shadow-brand/30 transition">
                   <Icon className="h-7 w-7" strokeWidth={1.6} />
                 </div>
                 <h3 className="mt-6 font-display text-lg leading-snug font-bold transition group-hover:text-white">
@@ -49,6 +61,7 @@ export default function Services() {
                 <p className="mt-3 text-[15px] leading-relaxed text-muted transition group-hover:text-white/70">
                   {t(`items.${key}.text`)}
                 </p>
+                </div>
                 <span className="absolute bottom-0 left-0 h-1 w-0 bg-brand transition-all duration-300 group-hover:w-full" aria-hidden="true" />
               </li>
             );
